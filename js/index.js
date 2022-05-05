@@ -14,19 +14,19 @@ let lista = (`Escriba la fruta a pesar:
                                         Banana
                                         Frutilla
                                         Mandarina
-                                        Finalizar compra`);
+                                        Finalizar`);
 
 let naranja1 = 0, manzana1 = 0, banana1 = 0, frutilla1 = 0, mandarina1 = 0;
 let total= 0;
 ;
-while(lista !=="Finalizar compra"){
+while(lista !=="Finalizar"){
     let lista = prompt(`Escriba la fruta a pesar:
                                                   Naranja
                                                   Manzana
                                                   Banana
                                                   Frutilla
                                                   Mandarina
-                                                  Finalizar compra`);
+                                                  Finalizar`);
     
                         
     
@@ -35,7 +35,7 @@ while(lista !=="Finalizar compra"){
        lista !== "Banana" && 
        lista !== "Frutilla" && 
        lista !== "Mandarina" && 
-       lista !== "Finalizar compra")
+       lista !== "Finalizar")
        {
            alert("Ha ingresado una opción invalida");
          
@@ -82,7 +82,7 @@ while(lista !=="Finalizar compra"){
     }
 
 
-    if (lista == "Finalizar compra"){  
+    if (lista == "Finalizar"){  
 
         let resultado = mandarina1+manzana1+frutilla1+banana1+naranja1
         alert ("El peso total de sus productos es de: " + resultado + "kg.")}
